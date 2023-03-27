@@ -1,11 +1,12 @@
 #include <main.h>
 
 /**
- * The funcyion takes the pointer to int parameter then set it into 98
+ * reset_to_98 - function takes the pointer to int parameter
+ *		then set it into 98
  *
  * @n: int parameter
  *
- * Return: nothing
+ * Return: Nothing
 */
 
 void reset_to_98(int *n)

@@ -6,14 +6,15 @@
  * @dest: char type string
  * @src: char type string
  *
- * Description: copy the string pointed to by 'src' to the buffer pointed to by 'dest'
+ * Description: copy the string pointed to by 'src'
+ *		to the buffer pointed to by 'dest'
  *
  * Return: Pointer to 'dest'
 */
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = 01;
+	int i = -1;
 
 	do {
 		i++;

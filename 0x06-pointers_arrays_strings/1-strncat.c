@@ -5,9 +5,9 @@
  *
  * @dest: pointer to the destination input
  * @src: pointer to the source input
- * @n: number
+ * @n: most number of bytes from @src
  *
- * Return: pointer to the resulting sting @dest
+ * Return: @dest
 */
 
 char *_strncat(char *dest, char *src, int n)

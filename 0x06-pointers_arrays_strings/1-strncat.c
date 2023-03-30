@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - function that concatinates 2 strings
+ * _strncat - function that concatinates 2 strings
  *
  * @dest: pointer to the destination input
  * @src: pointer to the source input
@@ -10,7 +10,7 @@
  * Return: pointer to the resulting sting @dest
 */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int c, i;
 

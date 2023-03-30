@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strncat - function that concatinates 2 strings
+ * _strcat - function that concatinates 2 strings
  *
  * @dest: pointer to the destination input
  * @src: pointer to the source input
+ * @n: number
  *
  * Return: pointer to the resulting sting @dest
 */

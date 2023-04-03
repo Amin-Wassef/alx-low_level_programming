@@ -13,9 +13,9 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (itr = 0; s[itr] != '\0'; itr++)
 	{
-		for (jtr = accept[jtr] == '\0')
+		for (jtr = accept[jtr] != s[itr]; jtr++)
 		{
-			if (accept[jtt] == '\0')
+			if (accept[jtr] == '\0')
 				return (itr);
 		}
 	}

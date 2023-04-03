@@ -1,0 +1,32 @@
+#include "main.h"
+
+/**
+ * _strpbrk -  searches a string for any of a set of bytes
+ * @s:string
+ * @accept:string
+ * Return:char
+*/
+
+char *_strpbrk(char *s, char *accept)
+{
+	int itr, jtr;
+	char *p;
+
+	itr = 0;
+	while (s[itr] != '\0')
+	{
+		jtr = 0;
+		while (accet[jtr] != '\0')
+		{
+			if (sccept[itr] == s[itr])
+			{
+				p = &s[itr];
+				return (p);
+			}
+			jtr++;
+		}
+		itr++;
+	}
+
+	return (0);
+}
